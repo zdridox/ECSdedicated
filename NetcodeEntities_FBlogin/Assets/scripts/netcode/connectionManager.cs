@@ -10,9 +10,9 @@ using UnityEngine;
 public class connectionManager : MonoBehaviour
 {
 
-    private string listenIP = "127.0.0.1"; // localhost
-    private string connectIP = "127.0.0.1"; // localhost
-    private ushort port = 1234;
+    private string listenIP = "0.0.0.0"; // localhost
+    private string connectIP = "213.76.93.134"; // stupid shiii
+    private ushort port = 5670;
     public static World serverWorld = null;
     public static World clientWorld = null;
 

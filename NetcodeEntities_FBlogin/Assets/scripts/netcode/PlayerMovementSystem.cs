@@ -19,6 +19,7 @@ public partial struct PlayerMovementSystem : ISystem
         state.RequireForUpdate(state.GetEntityQuery(builder));
     }
 
+    //schedule job
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
@@ -31,6 +32,7 @@ public partial struct PlayerMovementSystem : ISystem
 
 }
 
+//move player job 
 [BurstCompile]
 public partial struct PlayerMovementJob : IJobEntity
 {
