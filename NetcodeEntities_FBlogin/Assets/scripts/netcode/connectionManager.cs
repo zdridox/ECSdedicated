@@ -10,7 +10,7 @@ using UnityEngine;
 public class connectionManager : MonoBehaviour
 {
 
-    private string listenIP = "0.0.0.0"; // localhost
+    private string listenIP = "0.0.0.0";
     private string connectIP = "213.76.93.134"; // stupid shiii
     private ushort port = 5670;
     public static World serverWorld = null;
